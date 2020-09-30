@@ -6,7 +6,7 @@ public class VATtoApply {
 
    
     private double vatType;
-    private VATtoApply uniqueInstance;
+    private static VATtoApply uniqueInstance;
    
     /**
      * MODIFICAR PARA CONSEGUIR QUE SEA SINGLETON
