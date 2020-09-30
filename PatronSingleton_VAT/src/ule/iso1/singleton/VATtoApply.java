@@ -12,7 +12,7 @@ public class VATtoApply {
      * MODIFICAR PARA CONSEGUIR QUE SEA SINGLETON
      */
 
-    public VATtoApply(double vat) {
+    private VATtoApply(double vat) {
     	vatType=vat;
     }
   
@@ -31,7 +31,7 @@ public class VATtoApply {
 /**
  * 
  * 1-Crear una variable privada que sea la única instancia
- * 
+ * 2-El constructor tiene que ser privado
  * 
  * 
  * 
